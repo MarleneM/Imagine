@@ -1,0 +1,141 @@
+:root {
+  --main-color: #c9de2c;
+}
+
+body {
+	color: #grey;
+	font-family: helvetica;
+	font-size: 15px;
+	background-color: white;
+	}
+
+.navbar-transparent {
+	background-color: rgba(1, 1, 1, 0.5);
+}
+
+<!-- navbar donnee par Le Wagon -->
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+#head{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#logo {
+	width: 200px;
+	margin-top: 65px;
+}
+
+#wrapper {
+	background-image: url("../images/background/background-clouds.jpg");
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 115px;
+}
+
+#wrapper h1 { 
+	font-size: 50px;
+}
+
+#wrapper h2 {
+	font-size: 35px;
+}
+
+#intro {
+	padding: 50px;
+	text-align: justify;
+}
+
+.feature img {
+	margin-bottom: 20px;
+}
+
+.spacersmall {
+	height: 25px;
+}
+
+.spacerbig {
+	height: 150px;
+}
+
+
+h1 {
+	font-family: helvetica;
+	size: 25px;
+	text-align: center;
+}
+h2 {
+	color: #402516;
+	font-size: 20px;
+	font-family: helvetica;
+	}
+h3 {
+	font-size: 15px;
+}
+
+img {
+	border-radius: 0%;
+	padding-top: 4px;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+a {
+	 text-decoration: none;
+	 color: #C94C36;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: var(--main-color);
+}
+
+#realisations {
+}
+
+.pictures {
+	width: 200px;
+	opacity: 0.8;
+}
+
+#footer {
+	background-color: black;
+	color: grey;
+	padding: 50px;
+}
+
+#footer a {
+	color: grey;
+	font-size: 20px;
+}
+
+#footer a:hover {
+	color: var(--main-color);
+}
+
+
