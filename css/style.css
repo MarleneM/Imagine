@@ -10,15 +10,13 @@ body {
 	}
 
 .navbar-transparent {
-	background-color: rgba(1, 1, 1, 0.5);
+	background-color: rgba(1, 1, 1, 0.4);
 }
-
-<!-- navbar donnee par Le Wagon -->
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: #eeeeee;
-  line-height: 50px;
+  color: white;
+  line-height: 25px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -43,8 +41,9 @@ body {
 }
 
 #logo {
-	width: 200px;
-	margin-top: 65px;
+	width: 100px;
+	margin-top: 4px;
+	margin-bottom: 5px;
 }
 
 #wrapper {
@@ -53,7 +52,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-	padding-top: 115px;
 }
 
 #wrapper h1 { 
@@ -75,6 +73,10 @@ body {
 
 .spacersmall {
 	height: 25px;
+}
+
+.spacermiddle {
+	height: 100px;
 }
 
 .spacerbig {
