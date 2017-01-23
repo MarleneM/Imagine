@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NOM - Descriptif </title>
+    <title>IMAGINE - Votre montage photo sur-mesure en 24H </title>
+      <meta name="Blabla" content="Blablbala blabla blablabla">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -32,22 +33,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index2.html">Imagine</a>
+ <img src="../images/logo-transparent-white.png" id="logo" alt="Galerie Imagine" href="../index.html">
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#ancre1">Commander</a></li>
+        <li><a href="#">Nos réalisations</a></li>
+        <li><a href="#">Le blog</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commander <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suivez-nous ! <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="https://www.instagram.com/marlene_mrr/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/marlene.crunch">Facebook</a></li>
+            <li><a href="https://twitter.com/mrlnmoreira">Twitter</a></li>
           </ul>
         </li>
       </ul>
@@ -56,55 +57,20 @@
 </nav>
 
 <!-- Les choses sérieuses commencent ici -->
-<div id="page">
-  <div id="head">
-    <img src="images/logo.png" id="logo" alt="Galerie Imagine" width="200px">
-  </div>
 
-<div class="container">
-  <div class="row"> 
-    <div class="col-sm-8">
-      <div id="map" style="width: 100%; height: 400px;"></div>
+<div class="spacerbig"></div> 
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
-<script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(48.8642850,2.3807250);
-
-  var myOptions = {
-      zoom: 14,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: [{"elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#0F0919"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#E4F7F7"}]},{"elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#002FA7"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"color":"#E60003"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#FBFCF4"}]},{"featureType":"poi.business","elementType":"geometry.fill","stylers":[{"color":"#FFED00"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"color":"#D41C1D"}]},{"featureType":"poi.school","elementType":"geometry.fill","stylers":[{"color":"#BF0000"}]},{"featureType":"transit.line","elementType":"geometry.fill","stylers":[{"saturation":-100}]}]
-  };
-
-  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here... enfin on pense!"
-  });
-</script>
-        <p> <i> Oh la jolie carte !</i> </p>
-        <div class="spacersmall"></div> 
-
+ <div align="center" >
+      <img src="../images/construction.jpg" width=150px>
+      <div class="spacersmall"></div> 
+      <p> En cours de construction </p>
     </div>
-     <div class="col-sm-4">
-      <h2>Contact</h2>
-      <p>Rendez-nous visite au :</p> 
-      <p>79 Avenue de la République</p>
-      <p>Paris</p>
-        <div class="spacersmall"></div>
-      <p><i>On vous fera un bisou. 
-      <p><i class="fa fa-heart" aria-hidden="true"></i></p>
-</i></p>
-       
-        <div class="spacerbig"></div> 
-    </div>
-  </div>
 </div>
 
-<!-- La fin avec les RS et cie -->
+<div class="spacerbig"></div> 
+
+<!-- footer -->
+
 <div id="footer">
   <div class="container">
     <div class="row"> 
@@ -119,7 +85,6 @@
       </div>
 
       <div class="col-xs-6 col-md-3"> 
-        <p> Site fictif créé grâce au programme Le Wagon </p>
       </div>
 
     </div>
